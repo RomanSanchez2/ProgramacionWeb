@@ -18,7 +18,9 @@ document.getElementById("form1").addEventListener("submit", function(event) {
     alerta.classList.remove("alert-danger");
     alerta.classList.add("alert-success");
     alerta.classList.remove("d-none");
+    alerta.classList.add("alert-bottom")
   
     // Redirigir al usuario a la sección de la página deseada
     window.location.href ="feed.html";
   });
+  
